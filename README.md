@@ -1,15 +1,15 @@
-# Deep Learning Projects
+# Derin Öğrenme Projeleri
 
-Deep learning projects I build while learning PyTorch.
+PyTorch öğrenirken geliştirdiğim derin öğrenme projeleri.
 
-| # | Project | Task | Result |
-|---|---------|------|--------|
-| 01 | [Iris Classification](01-iris-classification/) | Multi-class classification (3 species) with a small MLP | ~97–100% test accuracy |
+| # | Proje | Görev | Sonuç |
+|---|-------|-------|-------|
+| 01 | [Iris Sınıflandırma](01-iris-classification/) | Küçük bir MLP ile çok sınıflı sınıflandırma (3 tür) | Test doğruluğu ~%97–100 |
 
-## Setup
+## Kurulum
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then open a project's notebook in Jupyter.
+Ardından ilgili projenin notebook'unu Jupyter'de açın.

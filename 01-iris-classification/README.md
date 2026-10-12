@@ -1,16 +1,16 @@
-# 01 – Iris Classification
+# 01 – Iris Sınıflandırma
 
-Classifies iris flowers into three species (setosa, versicolor, virginica) from four measurements: sepal length/width and petal length/width.
+Iris çiçeklerini dört ölçüme göre (çanak yaprak uzunluğu/genişliği, taç yaprak uzunluğu/genişliği) üç türe ayırır: setosa, versicolor, virginica.
 
-## Steps
-1. Data exploration with pandas and seaborn
-2. Label encoding, stratified 80/20 train/test split
-3. MLP in PyTorch: 4 → 10 → 10 → 3 with ReLU
-4. Training with `CrossEntropyLoss` and Adam (lr=0.01, 100 epochs)
-5. Evaluation: accuracy, loss curves, confusion matrix (torchmetrics)
+## Adımlar
+1. pandas ve seaborn ile veri keşfi
+2. Etiket kodlama (LabelEncoder), sınıf oranları korunarak %80/%20 eğitim/test ayrımı
+3. PyTorch ile MLP: 4 → 10 → 10 → 3, ReLU aktivasyonu
+4. `CrossEntropyLoss` ve Adam (lr=0.01, 100 epoch) ile eğitim
+5. Değerlendirme: doğruluk, loss eğrileri, karışıklık matrisi (torchmetrics)
 
-## Result
-Test accuracy is around 97–100%. The test set has only 30 samples, so one sample changes accuracy by about 3.3%.
+## Sonuç
+Test doğruluğu yaklaşık %97–100. Test setinde yalnızca 30 örnek olduğundan her örnek doğruluğu yaklaşık %3,3 değiştirir.
 
-## Data
-`iris.csv` – the classic Iris dataset (150 samples, 50 per class).
+## Veri
+`iris.csv`: klasik Iris veri seti (150 örnek, her sınıftan 50).
