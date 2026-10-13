@@ -1,4 +1,4 @@
-# 01 – Iris Sınıflandırma
+# Iris Sınıflandırma
 
 Iris çiçeklerini dört ölçüme göre (çanak yaprak uzunluğu/genişliği, taç yaprak uzunluğu/genişliği) üç türe ayırır: setosa, versicolor, virginica.
 

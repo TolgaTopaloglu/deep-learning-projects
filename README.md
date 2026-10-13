@@ -4,7 +4,7 @@ PyTorch öğrenirken geliştirdiğim derin öğrenme projeleri.
 
 | # | Proje | Görev | Sonuç |
 |---|-------|-------|-------|
-| 01 | [Iris Sınıflandırma](01-iris-classification/) | Küçük bir MLP ile çok sınıflı sınıflandırma (3 tür) | Test doğruluğu ~%97–100 |
+| 1 | [Iris Sınıflandırma](Iris-Classification/) | Küçük bir MLP ile çok sınıflı sınıflandırma (3 tür) | Test doğruluğu ~%97–100 |
 
 ## Kurulum
 
