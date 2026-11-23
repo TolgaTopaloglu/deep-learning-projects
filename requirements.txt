@@ -4,4 +4,6 @@ matplotlib
 seaborn
 scikit-learn
 torch
+torchvision
 torchmetrics
+torchinfo
